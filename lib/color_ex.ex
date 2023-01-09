@@ -6,7 +6,7 @@ defmodule ColorEx do
   @styles [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
   @doc """
-    ColorEx string
+    Colorize string
 
     ## Example
 
