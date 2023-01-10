@@ -5,7 +5,7 @@ defmodule ColorExTest do
   import ColorEx
 
   test "black" do
-    assert ~l"black"30000 == "\x1b[30mblack\x1b[m"
-    assert ~l"black"90000 == "\x1b[90mblack\x1b[m"
+    assert colorize("black", [front: 30, back: 0, style: 0]) == "\x1b[30mblack\x1b[m"
+    assert colorize("black", [front: 90, back: 0, style: 0]) == "\x1b[90mblack\x1b[m"
   end
 end
