@@ -18,6 +18,7 @@ end
 ```
 
 ## Example
+  ```
   iex> import ColorEx
   iex> colorize("red", [front: 31, back: 0, style: 0])
   "\e[31mred\e[m"
@@ -25,3 +26,4 @@ end
   "\e[32mgreen\e[m"
   iex> colorize("blue", [front: 34, back: 0, style: 0])
   "\e[34mblue\e[m"
+  ```
