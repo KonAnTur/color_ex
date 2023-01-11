@@ -7,7 +7,7 @@ Function for styling text in the console.
 
 ## Installation
 
-[available in Hex](https://hex.pm/packages/color_ex):
+[Available in Hex](https://hex.pm/packages/color_ex):
 
 ```elixir
 def deps do
