@@ -7,7 +7,14 @@ defmodule ColorEx.MixProject do
       version: "0.1.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      name: "color_ex",
+      description: "ANSI coloring in the terminal",
+      package: [
+        maintainers: ["Konstantin Turov"],
+        licenses: ["MIT"],
+        links: %{"GitHub" => "https://github.com/KonAnTur/color_ex"}
+      ]
     ]
   end
 
