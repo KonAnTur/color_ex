@@ -27,3 +27,5 @@ end
   iex> colorize("blue", [front: 34, back: 0, style: 0])
   "\e[34mblue\e[m"
   ```
+  **Or**
+  ![example](./assets/example.png)
